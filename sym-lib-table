@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PCIE-036-02-F-D-TH")(type "KiCad")(uri "${KIPRJMOD}/PCIE-036-02-F-D-TH.kicad_sym")(options "")(descr ""))
+  (lib (name "PI6CG18201ZDIEX")(type "KiCad")(uri "${KIPRJMOD}/PI6CG18201ZDIEX.kicad_sym")(options "")(descr ""))
+)
