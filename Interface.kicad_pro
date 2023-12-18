@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.75,
-          "height": 1.2,
-          "width": 1.2
+          "drill": 3.2,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,21 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|127099999|90405001|7a202098-4034-4aa2-8ef8-11f3a25c2327|c9b7e9d6-c295-4b09-92f3-6e281e53935f",
+        "courtyards_overlap|127099999|91150001|7a202098-4034-4aa2-8ef8-11f3a25c2327|210320bc-1ca0-40a6-be41-cd4b412a303b",
+        "courtyards_overlap|128755001|79000001|ae5d16a8-9269-488f-b6c2-5042e55a737e|9e3d3e67-e248-4d5e-addf-a022af312ac1",
+        "lib_footprint_mismatch|126000000|90075000|c9b7e9d6-c295-4b09-92f3-6e281e53935f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|126000000|90875000|7a202098-4034-4aa2-8ef8-11f3a25c2327|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|128425000|80100000|9e3d3e67-e248-4d5e-addf-a022af312ac1|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|129225000|80100000|ae5d16a8-9269-488f-b6c2-5042e55a737e|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|131950000|84000000|de58fe5f-7747-46d5-b6a4-4bc22544c6be|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|101814285|85254819|b3f11d93-0cea-496d-bd94-1feb7fce1f03|96ec2738-534a-4560-927a-a6aef69d6466",
+        "silk_overlap|104392857|98704819|ff3039c1-5810-4879-9b17-f7c6592a9d36|8a051297-6cba-4d2f-a74f-c036790e0c67",
+        "silk_overlap|116166667|98704819|d610efae-858c-4b79-a6af-076372eaa887|c8b292ff-2e47-468e-b9f6-2177205614e7",
+        "silk_overlap|125832379|90455000|a4f2cfce-fc4a-40c4-a313-cc5826f0258b|a22c6542-c033-4e64-86dd-60c1153fbed5",
+        "silk_overlap|128845000|79932379|81ef17e2-ec18-4810-804d-99fc04e8a53e|4711cd54-0d25-4c5d-93aa-5eb406207dda"
+      ],
       "meta": {
         "version": 2
       },
@@ -460,11 +474,7 @@
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Rx*"
-      },
-      {
-        "netclass": "PCIe",
-        "pattern": "/Tx*"
+        "pattern": "/*x*"
       }
     ]
   },
